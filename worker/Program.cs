@@ -18,6 +18,16 @@ namespace Worker
             {
                 Console.WriteLine("Starting worker");
 
+                try
+                {
+                    var zero = 0;
+                    var test = 10 / zero;
+                }
+                catch (DivideByZeroException ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
+
                 var pgsql = OpenDbConnection("Server=db;Username=postgres;Password=postgres;");
                 var redisConn = OpenRedisConnection("redis");
                 var redis = redisConn.GetDatabase();
@@ -46,9 +56,6 @@ namespace Worker
                         var vote = JsonConvert.DeserializeAnonymousType(json, definition);
                         Console.WriteLine($"Processing vote for '{vote.vote}' by '{vote.voter_id}'");
                         
-                var zero = 0;
-                var test = 10 / zero;
-                
                         // Reconnect DB if down
                         if (!pgsql.State.Equals(System.Data.ConnectionState.Open))
                         {
