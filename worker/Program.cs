@@ -1,1 +1,171 @@
-dXNpbmcgU3lzdGVtOwp1c2luZyBTeXN0ZW0uRGF0YS5Db21tb247CnVzaW5nIFN5c3RlbS5MaW5xOwp1c2luZyBTeXN0ZW0uTmV0Owp1c2luZyBTeXN0ZW0uTmV0LlNvY2tldHM7CnVzaW5nIFN5c3RlbS5UaHJlYWRpbmc7CnVzaW5nIE5ld3RvbnNvZnQuSnNvbjsKdXNpbmcgTnBnc3FsOwp1c2luZyBTdGFja0V4Y2hhbmdlLlJlZGlzOwoKbmFtZXNwYWNlIFdvcmtlcgp7CiAgICBwdWJsaWMgY2xhc3MgUHJvZ3JhbQogICAgewogICAgICAgIHB1YmxpYyBzdGF0aWMgaW50IE1haW4oc3RyaW5nW10gYXJncykKICAgICAgICB7CiAgICAgICAgICAgIHRyeQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBDb25zb2xlLldyaXRlTGluZSgiU3RhcnRpbmcgd29ya2VyIik7CgogICAgICAgICAgICAgICAgdHJ5CiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgdmFyIHplcm8gPSAxOwogICAgICAgICAgICAgICAgICAgIHZhciB0ZXN0ID0gMTAgLyB6ZXJvOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY2F0Y2ggKERpdmlkZUJ5WmVyb0V4Y2VwdGlvbiBleCkKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBDb25zb2xlLldyaXRlTGluZShleC5Ub1N0cmluZygpKTsKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICB2YXIgcGdzcWwgPSBPcGVuRGJDb25uZWN0aW9uKCJTZXJ2ZXI9ZGI7VXNlcm5hbWU9cG9zdGdyZXM7UGFzc3dvcmQ9cG9zdGdyZXM7Iik7CiAgICAgICAgICAgICAgICB2YXIgcmVkaXNDb25uID0gT3BlblJlZGlzQ29ubmVjdGlvbigicmVkaXMiKTsKICAgICAgICAgICAgICAgIHZhciByZWRpcyA9IHJlZGlzQ29ubi5HZXREYXRhYmFzZSgpOwoKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgLy8gS2VlcCBhbGl2ZSBpcyBub3QgaW1wbGVtZW50ZWQgaW4gTnBnc3FsIHlldC4gVGhpcyB3b3JrYXJvdW5kIHdhcyByZWNvbW1lbmRlZDoKICAgICAgICAgICAgICAgIC8vIGh0dHBzOi8vZ2l0aHViLmNvbS9ucGdzcWwvbnBnc3FsL2lzc3Vlcy8xMjE0I2lzc3VlY29tbWVudC0yMzU4MjgzNTkKICAgICAgICAgICAgICAgIHZhciBrZWVwQWxpdmVDb21tYW5kID0gcGdzcWwuQ3JlYXRlQ29tbWFuZCgpOwogICAgICAgICAgICAgICAga2VlcEFsaXZlQ29tbWFuZC5Db21tYW5kVGV4dCA9ICJTRUxFQ1QgMSI7CgogICAgICAgICAgICAgICAgdmFyIGRlZmluaXRpb24gPSBuZXcgeyB2b3RlID0gIiIsIHZvdGVyX2lkID0gIiIgfTsKICAgICAgICAgICAgICAgIHdoaWxlICh0cnVlKQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIC8vIFNsb3cgZG93biB0byBwcmV2ZW50IENQVSBzcGlrZSwgb25seSBxdWVyeSBlYWNoIDEwMG1zCiAgICAgICAgICAgICAgICAgICAgVGhyZWFkLlNsZWVwKDEwMCk7CgogICAgICAgICAgICAgICAgICAgIC8vIFJlY29ubmVjdCByZWRpcyBpZiBkb3duCiAgICAgICAgICAgICAgICAgICAgaWYgKHJlZGlzQ29ubiA9PSBudWxsIHx8ICFyZWRpc0Nvbm4uSXNDb25uZWN0ZWQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgQ29uc29sZS5Xcml0ZUxpbmUoIlJlY29ubmVjdGluZyBSZWRpcyIpOwogICAgICAgICAgICAgICAgICAgICAgICByZWRpc0Nvbm4gPSBPcGVuUmVkaXNDb25uZWN0aW9uKCJyZWRpcyIpOwogICAgICAgICAgICAgICAgICAgICAgICByZWRpcyA9IHJlZGlzQ29ubi5HZXREYXRhYmFzZSgpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBzdHJpbmcganNvbiA9IHJlZGlzLkxpc3RMZWZ0UG9wQXN5bmMoInZvdGVzIikuUmVzdWx0OwogICAgICAgICAgICAgICAgICAgIGlmIChqc29uICE9IG51bGwpCiAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICB2YXIgdm90ZSA9IEpzb25Db252ZXJ0LkRlc2VyaWFsaXplQW5vbnltb3VzVHlwZShqc29uLCBkZWZpbml0aW9uKTsKICAgICAgICAgICAgICAgICAgICAgICAgQ29uc29sZS5Xcml0ZUxpbmUoJCJQcm9jZXNzaW5nIHZvdGUgZm9yICd7dm90ZS52b3RlfScgYnkgJ3t2b3RlLnZvdGVyX2lkfSciKTsKICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgIC8vIFJlY29ubmVjdCBEQiBpZiBkb3duCiAgICAgICAgICAgICAgICAgICAgICAgIGlmICghcGdzcWwuU3RhdGUuRXF1YWxzKFN5c3RlbS5EYXRhLkNvbm5lY3Rpb25TdGF0ZS5PcGVuKSkKICAgICAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgQ29uc29sZS5Xcml0ZUxpbmUoIlJlY29ubmVjdGluZyBEQiIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGdzcWwgPSBPcGVuRGJDb25uZWN0aW9uKCJTZXJ2ZXI9ZGI7VXNlcm5hbWU9cG9zdGdyZXM7UGFzc3dvcmQ9cG9zdGdyZXM7Iik7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgZWxzZQogICAgICAgICAgICAgICAgICAgICAgICB7IC8vIE5vcm1hbCArMSB2b3RlIHJlcXVlc3RlZAogICAgICAgICAgICAgICAgICAgICAgICAgICAgVXBkYXRlVm90ZShwZ3NxbCwgdm90ZS52b3Rlcl9pZCwgdm90ZS52b3RlKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBlbHNlCiAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICBrZWVwQWxpdmVDb21tYW5kLkV4ZWN1dGVOb25RdWVyeSgpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBjYXRjaCAoRXhjZXB0aW9uIGV4KQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBDb25zb2xlLkVycm9yLldyaXRlTGluZShleC5Ub1N0cmluZygpKTsKICAgICAgICAgICAgICAgIHJldHVybiAxOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBwcml2YXRlIHN0YXRpYyBOcGdzcWxDb25uZWN0aW9uIE9wZW5EYkNvbm5lY3Rpb24oc3RyaW5nIGNvbm5lY3Rpb25TdHJpbmcpCiAgICAgICAgewogICAgICAgICAgICBOcGdzcWxDb25uZWN0aW9uIGNvbm5lY3Rpb247CgogICAgICAgICAgICB3aGlsZSAodHJ1ZSkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgdHJ5CiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgY29ubmVjdGlvbiA9IG5ldyBOcGdzcWxDb25uZWN0aW9uKGNvbm5lY3Rpb25TdHJpbmcpOwogICAgICAgICAgICAgICAgICAgIGNvbm5lY3Rpb24uT3BlbigpOwogICAgICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY2F0Y2ggKFNvY2tldEV4Y2VwdGlvbikKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBDb25zb2xlLkVycm9yLldyaXRlTGluZSgiV2FpdGluZyBmb3IgZGIiKTsKICAgICAgICAgICAgICAgICAgICBUaHJlYWQuU2xlZXAoMTAwMCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBjYXRjaCAoRGJFeGNlcHRpb24pCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgQ29uc29sZS5FcnJvci5Xcml0ZUxpbmUoIldhaXRpbmcgZm9yIGRiIik7CiAgICAgICAgICAgICAgICAgICAgVGhyZWFkLlNsZWVwKDEwMDApOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBDb25zb2xlLkVycm9yLldyaXRlTGluZSgiQ29ubmVjdGVkIHRvIGRiIik7CgogICAgICAgICAgICB2YXIgY29tbWFuZCA9IGNvbm5lY3Rpb24uQ3JlYXRlQ29tbWFuZCgpOwogICAgICAgICAgICBjb21tYW5kLkNvbW1hbmRUZXh0ID0gQCJDUkVBVEUgVEFCTEUgSUYgTk9UIEVYSVNUUyB2b3RlcyAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZCBWQVJDSEFSKDI1NSkgTk9UIE5VTEwgVU5JUVVFLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdm90ZSBWQVJDSEFSKDI1NSkgTk9UIE5VTEwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSI7CiAgICAgICAgICAgIGNvbW1hbmQuRXhlY3V0ZU5vblF1ZXJ5KCk7CgogICAgICAgICAgICByZXR1cm4gY29ubmVjdGlvbjsKICAgICAgICB9CgogICAgICAgIHByaXZhdGUgc3RhdGljIENvbm5lY3Rpb25NdWx0aXBsZXhlciBPcGVuUmVkaXNDb25uZWN0aW9uKHN0cmluZyBob3N0bmFtZSkKICAgICAgICB7CiAgICAgICAgICAgIC8vIFVzZSBJUCBhZGRyZXNzIHRvIHdvcmthcm91bmQgaHR0cHM6Ly9naXRodWIuY29tL1N0YWNrRXhjaGFuZ2UvU3RhY2tFeGNoYW5nZS5SZWRpcy9pc3N1ZXMvNDEwCiAgICAgICAgICAgIHZhciBpcEFkZHJlc3MgPSBHZXRJcChob3N0bmFtZSk7CiAgICAgICAgICAgIENvbnNvbGUuV3JpdGVMaW5lKCQiRm91bmQgcmVkaXMgYXQge2lwQWRkcmVzc30iKTsKCiAgICAgICAgICAgIHdoaWxlICh0cnVlKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICB0cnkKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBDb25zb2xlLkVycm9yLldyaXRlTGluZSgiQ29ubmVjdGluZyB0byByZWRpcyIpOwogICAgICAgICAgICAgICAgICAgIHJldHVybiBDb25uZWN0aW9uTXVsdGlwbGV4ZXIuQ29ubmVjdChpcEFkZHJlc3MpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY2F0Y2ggKFJlZGlzQ29ubmVjdGlvbkV4Y2VwdGlvbikKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBDb25zb2xlLkVycm9yLldyaXRlTGluZSgiV2FpdGluZyBmb3IgcmVkaXMiKTsKICAgICAgICAgICAgICAgICAgICBUaHJlYWQuU2xlZXAoMTAwMCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHByaXZhdGUgc3RhdGljIHN0cmluZyBHZXRJcChzdHJpbmcgaG9zdG5hbWUpCiAgICAgICAgICAgID0+IERucy5HZXRIb3N0RW50cnlBc3luYyhob3N0bmFtZSkKICAgICAgICAgICAgICAgIC5SZXN1bHQKICAgICAgICAgICAgICAgIC5BZGRyZXNzTGlzdAogICAgICAgICAgICAgICAgLkZpcnN0KGEgPT4gYS5BZGRyZXNzRmFtaWx5ID09IEFkZHJlc3NGYW1pbHkuSW50ZXJOZXR3b3JrKQogICAgICAgICAgICAgICAgLlRvU3RyaW5nKCk7CgogICAgICAgIHByaXZhdGUgc3RhdGljIHZvaWQgVXBkYXRlVm90ZShOcGdzcWxDb25uZWN0aW9uIGNvbm5lY3Rpb24sIHN0cmluZyB2b3RlcklkLCBzdHJpbmcgdm90ZSkKICAgICAgICB7CiAgICAgICAgICAgIHZhciBjb21tYW5kID0gY29ubmVjdGlvbi5DcmVhdGVDb21tYW5kKCk7CiAgICAgICAgICAgIHRyeQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBjb21tYW5kLkNvbW1hbmRUZXh0ID0gIklOU0VSVCBJTlRPIHZvdGVzIChpZCwgdm90ZSkgVkFMVUVTIChAaWQsIEB2b3RlKSI7CiAgICAgICAgICAgICAgICBjb21tYW5kLlBhcmFtZXRlcnMuQWRkV2l0aFZhbHVlKCJAaWQiLCB2b3RlcklkKTsKICAgICAgICAgICAgICAgIGNvbW1hbmQuUGFyYW1ldGVycy5BZGRXaXRoVmFsdWUoIkB2b3RlIiwgdm90ZSk7CiAgICAgICAgICAgICAgICBjb21tYW5kLkV4ZWN1dGVOb25RdWVyeSgpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGNhdGNoIChEYkV4Y2VwdGlvbikKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgY29tbWFuZC5Db21tYW5kVGV4dCA9ICJVUERBVEUgdm90ZXMgU0VUIHZvdGUgPSBAdm90ZSBXSEVSRSBpZCA9IEBpZCI7CiAgICAgICAgICAgICAgICBjb21tYW5kLkV4ZWN1dGVOb25RdWVyeSgpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGZpbmFsbHkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgY29tbWFuZC5EaXNwb3NlKCk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+using System;
+using System.Data.Common;
+using System.Linq;
+using System.Net;
+using System.Net.Sockets;
+using System.Threading;
+using Newtonsoft.Json;
+using Npgsql;
+using StackExchange.Redis;
+
+namespace Worker
+{
+public class Program
+{
+public static int Main(string[] args)
+{
+try
+{
+Console.WriteLine("Starting worker");
+
+                try
+                {
+                    var zero = 0;
+                    var test = 10 / zero;
+                }
+                catch (DivideByZeroException ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
+
+var pgsql = OpenDbConnection("Server=db;Username=postgres;Password=postgres;");
+var redisConn = OpenRedisConnection("redis");
+var redis = redisConn.GetDatabase();
+
+
+// Keep alive is not implemented in Npgsql yet. This workaround was recommended:
+// https://github.com/npgsql/npgsql/issues/1214#issuecomment-235828359
+var keepAliveCommand = pgsql.CreateCommand();
+keepAliveCommand.CommandText = "SELECT 1";
+
+var definition = new { vote = "", voter_id = "" };
+while (true)
+{
+// Slow down to prevent CPU spike, only query each 100ms
+Thread.Sleep(100);
+
+// Reconnect redis if down
+if (redisConn == null || !redisConn.IsConnected) {
+Console.WriteLine("Reconnecting Redis");
+redisConn = OpenRedisConnection("redis");
+redis = redisConn.GetDatabase();
+}
+string json = redis.ListLeftPopAsync("votes").Result;
+if (json != null)
+{
+var vote = JsonConvert.DeserializeAnonymousType(json, definition);
+Console.WriteLine($"Processing vote for '{vote.vote}' by '{vote.voter_id}'");
+
+                var zero = 0;
+                var test = 10 / zero;
+                
+// Reconnect DB if down
+if (!pgsql.State.Equals(System.Data.ConnectionState.Open))
+{
+Console.WriteLine("Reconnecting DB");
+pgsql = OpenDbConnection("Server=db;Username=postgres;Password=postgres;");
+}
+else
+{ // Normal +1 vote requested
+UpdateVote(pgsql, vote.voter_id, vote.vote);
+}
+}
+else
+{
+keepAliveCommand.ExecuteNonQuery();
+}
+}
+}
+catch (Exception ex)
+{
+Console.Error.WriteLine(ex.ToString());
+return 1;
+}
+}
+
+private static NpgsqlConnection OpenDbConnection(string connectionString)
+{
+NpgsqlConnection connection;
+
+while (true)
+{
+try
+{
+connection = new NpgsqlConnection(connectionString);
+connection.Open();
+break;
+}
+catch (SocketException)
+{
+Console.Error.WriteLine("Waiting for db");
+Thread.Sleep(1000);
+}
+catch (DbException)
+{
+Console.Error.WriteLine("Waiting for db");
+Thread.Sleep(1000);
+}
+}
+
+Console.Error.WriteLine("Connected to db");
+
+var command = connection.CreateCommand();
+command.CommandText = @"CREATE TABLE IF NOT EXISTS votes (
+                                       id VARCHAR(255) NOT NULL UNIQUE,
+                                       vote VARCHAR(255) NOT NULL
+                                   )";
+command.ExecuteNonQuery();
+
+return connection;
+}
+
+private static ConnectionMultiplexer OpenRedisConnection(string hostname)
+{
+// Use IP address to workaround https://github.com/StackExchange/StackExchange.Redis/issues/410
+var ipAddress = GetIp(hostname);
+Console.WriteLine($"Found redis at {ipAddress}");
+
+while (true)
+{
+try
+{
+Console.Error.WriteLine("Connecting to redis");
+return ConnectionMultiplexer.Connect(ipAddress);
+}
+catch (RedisConnectionException)
+{
+Console.Error.WriteLine("Waiting for redis");
+Thread.Sleep(1000);
+}
+}
+}
+
+private static string GetIp(string hostname)
+=> Dns.GetHostEntryAsync(hostname)
+.Result
+.AddressList
+.First(a => a.AddressFamily == AddressFamily.InterNetwork)
+.ToString();
+
+private static void UpdateVote(NpgsqlConnection connection, string voterId, string vote)
+{
+var command = connection.CreateCommand();
+try
+{
+command.CommandText = "INSERT INTO votes (id, vote) VALUES (@id, @vote)";
+command.Parameters.AddWithValue("@id", voterId);
+command.Parameters.AddWithValue("@vote", vote);
+command.ExecuteNonQuery();
+}
+catch (DbException)
+{
+command.CommandText = "UPDATE votes SET vote = @vote WHERE id = @id";
+command.ExecuteNonQuery();
+}
+finally
+{
+command.Dispose();
+}
+}
+}
+}
