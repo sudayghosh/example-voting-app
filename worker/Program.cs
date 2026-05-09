@@ -21,7 +21,7 @@ Console.WriteLine("Starting worker");
                 try
                 {
                     var zero = 0;
-                    var test = 10 / zero;
+                    var test = zero != 0 ? 10 / zero : 0;
                 }
                 catch (DivideByZeroException ex)
                 {
