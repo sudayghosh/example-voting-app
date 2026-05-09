@@ -57,7 +57,7 @@ var vote = JsonConvert.DeserializeAnonymousType(json, definition);
 Console.WriteLine($"Processing vote for '{vote.vote}' by '{vote.voter_id}'");
 
                 var zero = 0;
-                var test = 10 / zero;
+                var test = zero != 0 ? 10 / zero : 0;
                 
 // Reconnect DB if down
 if (!pgsql.State.Equals(System.Data.ConnectionState.Open))
