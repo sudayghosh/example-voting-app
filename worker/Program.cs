@@ -39,7 +39,7 @@ namespace Worker
                     Console.WriteLine(ex.ToString());
                 }
 
-                var pgsql = OpenDbConnection("Server=db;Username=postgres;Password=postgres;");
+                var pgsql = OpenDbConnection("Server=your_actual_db_server;Database=your_actual_database;Username=your_actual_username;Password=your_actual_password;");
                 var redisConn = OpenRedisConnection("redis");
                 var redis = redisConn.GetDatabase();
 
