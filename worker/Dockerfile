@@ -1,28 +1,27 @@
-# because of dotnet, we always build on amd64, and target platforms in cli
-# dotnet doesn't support QEMU for building or running. 
-# (errors common in arm/v7 32bit) https://github.com/dotnet/dotnet-docker/issues/1537
-# https://hub.docker.com/_/microsoft-dotnet
-# hadolint ignore=DL3029
-# to build for a different platform than your host, use --platform=<platform>
-# for example, if you were on Intel (amd64) and wanted to build for ARM, you would use:
-# docker buildx build --platform "linux/arm64/v8" .
+# See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-# build compiles the program for the builder's local platform
-FROM --platform=${BUILDPLATFORM} mcr.microsoft.com/dotnet/sdk:7.0 AS build
-ARG TARGETPLATFORM
-ARG TARGETARCH
-ARG BUILDPLATFORM
-RUN echo "I am running on $BUILDPLATFORM, building for $TARGETPLATFORM"
-
-WORKDIR /source
-COPY *.csproj .
-RUN dotnet restore -a $TARGETARCH
-
-COPY . .
-RUN dotnet publish -c release -o /app -a $TARGETARCH --self-contained false --no-restore
-
-# app image
-FROM mcr.microsoft.com/dotnet/runtime:7.0
+# This stage is used when running from VS in fast mode (Default for Debug configuration)
+FROM mcr.microsoft.com/dotnet/runtime:7.0 AS base
 WORKDIR /app
-COPY --from=build /app .
+
+
+# This stage is used to build the service project
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+ARG BUILD_CONFIGURATION=Release
+WORKDIR /src
+COPY ["Worker.csproj", "."]
+RUN dotnet restore "./Worker.csproj"
+COPY . .
+WORKDIR "/src/."
+RUN dotnet build "./Worker.csproj" -c $BUILD_CONFIGURATION -o /app/build
+
+# This stage is used to publish the service project to be copied to the final stage
+FROM build AS publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "./Worker.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+
+# This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "Worker.dll"]
