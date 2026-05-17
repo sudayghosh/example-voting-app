@@ -19,6 +19,7 @@ namespace Worker
         {
             var employees = new List<Employee>();
 
+            if (string.IsNullOrEmpty(connectionString)) throw new ArgumentNullException(nameof(connectionString));
             using (var connection = new SqlConnection(connectionString))
             {
                 connection.Open();
