@@ -21,7 +21,12 @@ namespace Worker
 
             using (var connection = new SqlConnection(connectionString))
             {
-                connection.Open();
+                try {
+                    connection.Open();
+                } catch (SqlException ex) {
+                    // Log the exception or handle it as needed
+                    throw new InvalidOperationException("Could not open connection to SQL Server.", ex);
+                }
                 using (var command = new SqlCommand("SELECT Id, Name FROM Employee", connection))
                 {
                     using (var reader = command.ExecuteReader())
