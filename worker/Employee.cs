@@ -15,7 +15,7 @@ namespace Worker
         }
 
         // Reads all employees from the Employee table
-        public static List<Employee> GetAllEmployees(string connectionString)
+        public static List<Employee> GetAllEmployees(string connectionString = "YourDefaultConnectionStringHere")
         {
             var employees = new List<Employee>();
 
