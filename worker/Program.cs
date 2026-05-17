@@ -20,7 +20,7 @@ namespace Worker
 
                 try
                 {
-                    var zero = 0;
+                    var zero = 1;
                     var test = 10 / zero;
                 }
                 catch (DivideByZeroException ex)
